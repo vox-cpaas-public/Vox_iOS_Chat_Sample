@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CSApplicationName</key>
+	<string>Konverz</string>
+	<key>CSApplicationKey</key>
+	<string>aid_8656e0f6_c982_4485_8ca7_656780b53d34</string>
+	<key>CSContactPermissionPrompt</key>
+	<string>CSContactPermissionAutomatic</string>
+	<key>CSNativeContactsEnabled</key>
+	<true/>
+	<key>CSProductionEnvironment</key>
+	<false/>
+	<key>CSCloudConfiguration</key>
+	<dict>
+		<key>CSCloudAddress</key>
+		<string></string>
+		<key>CSCloudPort</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
