@@ -10,8 +10,7 @@ target 'ChatSample' do
   pod 'VoxWebRTC', '~> 1.0.3'
   pod 'AWSCore', '~> 2.7.0'
   pod 'AWSS3', '~> 2.7.0'
-  pod  'InStatDownloadButton'
-  
+#  pod  'InStatDownloadButton'
 
   target 'ChatSampleTests' do
     inherit! :search_paths

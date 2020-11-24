@@ -133,8 +133,13 @@ class LoginViewController: UIViewController {
         titleview.backgroundColor = .clear
         titleview.addSubview(self.nameLabel)
         
+        self.loginID.attributedPlaceholder = NSAttributedString(string: "Login ID",
+                                                               attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+        
+        self.password.attributedPlaceholder = NSAttributedString(string: "Password",
+                                                                attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+        
         //! start animation
-
         self.activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 20, height: 40));
         self.activityIndicator.style = .white;
         titleview.addSubview(self.activityIndicator);
